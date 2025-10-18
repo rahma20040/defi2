@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>khessibirahma's_portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Mobile Menu Toggle -->
+    <div class="menu-toggle" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="profile">
+            <img src="rahmaimgf.jpg" alt="Photo de profil">
+            <h1>Khessibi Rahma</h1>
+            <div class="social-links">
+                <a href="https://www.facebook.com/rahma.khessibi.2025" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/khessibirahma/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/rahma-khessibi-28b344382/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/rahma20040" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#hero" class="active"><i class="fas fa-home"></i> Accueil</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> À propos</a></li>
+                <li><a href="#skills"><i class="fas fa-code"></i> Compétences</a></li>
+                <li><a href="#portfolio"><i class="fas fa-briefcase"></i> Portfolio Compétences</a></li>
+                <li><a href="#education"><i class="fas fa-file-alt"></i> Parcours Académique</a></li>
+                <li><a href="#resume"><i class="fas fa-file-alt"></i> CV</a></li>  
+                <li><a href="#projet"><i class="fas fa-project-diagram"></i> Mes projets</a></li>
+                <li><a href="#services"><i class="fas fa-cogs"></i> Services</a></li>
+                <li><a href="#team"><i class="fas fa-users"></i> My Team</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div>
+                <h2>Bonjour,C'est <span class="typed">Khessibi Rahma</span></h2>
+                <h3>Élève ingénieur en première année d'informatique appliquée à l'ENISo</h3>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2 class="section-title">À Propos</h2>
+            <div class="about-content">
+                <img src="rahma2.jpg" alt="À propos">
+                <div class="about-info">
+                    <h3>Élève ingénieur en première année d'informatique appliquée à l'ENISo</h3>
+                    <p>Je suis une étudiante en informatique appliquée passionnée par le développement web et le monde du code. J'aime créer des sites web modernes, intuitifs et performants, tout en explorant de nouvelles technologies pour améliorer mes compétences. Le développement est pour moi bien plus qu'une discipline : c'est un moyen d'exprimer ma créativité et de résoudre des problèmes de manière intelligente et efficace.</p>
+                    <ul class="info-list">
+                        <li><strong>Anniversaire:</strong> 10 septembre 2004</li>
+                        <li><strong>Site Web:</strong> www.khessibirahma's_portfolio.com</li>
+                        <li><strong>Téléphone:</strong> +216 96 022 986</li>
+                        <li><strong>Ville:</strong> Sousse, Tunisie</li>
+                        <li><strong>Âge:</strong> 21</li>
+                        <li><strong>Diplôme:</strong> Diplôme du concours national d'entrée aux écoles d'ingénieurs</li>
+                        <li><strong>Email:</strong> rahmakhessibieniso@gmail.com</li>
+                        <li><strong>Freelance:</strong> Disponible</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2 class="section-title">Compétences</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <h4>HTML <span>95%</span></h4>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4>CSS <span>90%</span></h4>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4>JavaScript <span>70%</span></h4>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4>Langage C<span>100%</span></h4>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 100%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4>Python <span>70%</span></h4>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 100%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4>SQL <span>100%</span></h4>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 100%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <h2 class="section-title">Portfolio Compétences</h2>
+            <div style="overflow-x: auto;">
+                <table style="
+                    width: 100%; 
+                    border-collapse: collapse; 
+                    background: #fff; 
+                    box-shadow: 0 5px 20px rgba(0,0,0,0.1); 
+                    border-radius: 10px; 
+                    overflow: hidden;
+                    border: 2px solid #0563bb;
+                ">
+                    <thead style="background-color: #0563bb; color: white;">
+                        <tr>
+                            <th style="padding: 15px; text-align: left; border: 1px solid #ddd;">Compétence</th>
+                            <th style="padding: 15px; text-align: left; border: 1px solid #ddd;">Niveau</th>
+                            <th style="padding: 15px; text-align: left; border: 1px solid #ddd;">Domaine d'application</th>
+                        </tr>
+                    </thead>
+                    <tbody style="color: #333;">
+                        <tr>
+                            <td style="padding: 15px; border: 1px solid #ddd;">Python</td>
+                            <td style="padding: 15px; border: 1px solid #ddd;">Avancé</td>
+                            <td style="padding: 15px; border: 1px solid #ddd;">Analyse de données, automatisation des tests, scripts embarqués</td>
+                        </tr>
+                        <tr style="background-color: #f5f8fd;">
+                            <td style="padding: 15px; border: 1px solid #ddd;">Langage C</td>
+                            <td style="padding: 15px; border: 1px solid #ddd;">Avancé</td>
+                            <td style="padding: 15px; border: 1px solid #ddd;">Programmation embarquée, microcontrôleurs (STM32, ARM)</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 15px; border: 1px solid #ddd;">C++</td>
+                            <td style="padding: 15px; border: 1px solid #ddd;">Intermédiaire</td>
+                            <td style="padding: 15px; border: 1px solid #ddd;">Systèmes embarqués, traitement de données capteurs</td>
+                        </tr>
+                        <tr style="background-color: #f5f8fd;">
+                            <td style="padding: 15px; border: 1px solid #ddd;">MATLAB/Simulink</td>
+                            <td style="padding: 15px; border: 1px solid #ddd;">Intermédiaire</td>
+                            <td style="padding: 15px; border: 1px solid #ddd;">Modélisation de systèmes, simulation de contrôle embarqué</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 15px; border: 1px solid #ddd;">HTML / CSS</td>
+                            <td style="padding: 15px; border: 1px solid #ddd;">Avancé</td>
+                            <td style="padding: 15px; border: 1px solid #ddd;">Interfaces utilisateur, dashboards</td>
+                        </tr>
+                        <tr style="background-color: #f5f8fd;">
+                            <td style="padding: 15px; border: 1px solid #ddd;">SQL</td>
+                            <td style="padding: 15px; border: 1px solid #ddd;">Avancé</td>
+                            <td style="padding: 15px; border: 1px solid #ddd;">Base de données, systèmes de gestion embarqués</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 15px; border: 1px solid #ddd;">Git / GitHub</td>
+                            <td style="padding: 15px; border: 1px solid #ddd;">Confirmé</td>
+                            <td style="padding: 15px; border: 1px solid #ddd;">Gestion de version, collaboration sur projets logiciels</td>
+                        </tr>
+                        <tr style="background-color: #f5f8fd;">
+                            <td style="padding: 15px; border: 1px solid #ddd;">CAN / LIN</td>
+                            <td style="padding: 15px; border: 1px solid #ddd;">Débutant</td>
+                            <td style="padding: 15px; border: 1px solid #ddd;">Communication entre calculateurs embarqués</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2 class="section-title">🎓 Parcours Académique</h2>
+            <div class="education-container">
+                <div class="education-item">
+                    <h3>École de sœurs à Sousse, Tunisie</h3>
+                    <p>Admise au concours d'entrée au Collège Pilote de Sousse</p>
+                    <span>2009 - 2016<br><br></span>
+                </div>
+                <div class="education-item">
+                    <h3>Collège Pilote de Sousse, Tunisie</h3>
+                    <p>Admise au concours d'entrée au Lycée Pilote de Sousse</p>
+                    <span>2016 - 2019<br><br></span>
+                </div>
+                <div class="education-item">
+                    <h3>Lycée Pilote de Sousse, Tunisie</h3>
+                    <p>Admise au baccalauréat en Mathématiques avec la mention Très Bien.</p>
+                    <span>2019 - 2023<br><br></span>
+                </div>
+                <div class="education-item">
+                    <h3>Institut Préparatoire aux Études d'Ingénieurs de Monastir, Tunisie</h3>
+                    <p>Admise au concours national d'entrée aux écoles d'ingénieurs</p>
+                    <span>2023 - 2025<br><br></span>
+                </div>
+                <div class="education-item">
+                    <h3>École Nationale d'Ingénieurs de Sousse</h3>
+                    <p>Spécialisation : Informatique Appliquée</p>
+                    <span>2025 - 2028</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume">
+            <h2 class="section-title">CV</h2>
+            <div class="resume-content">
+                <!-- Colonne 1 : Diplômes -->
+                <div class="resume-column">
+                    <h3 style="color: var(--dark); margin-bottom: 20px;">Diplômes :</h3>
+                    <div class="resume-item">
+                        <h4>Diplôme de fin d'études de l'enseignement de base général</h4>
+                        <h5>2019</h5>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Baccalauréat Mathématiques</h4>
+                        <h5>2023</h5>
+                        <p>Obtention du baccalauréat avec mention Très Bien</p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Diplôme du concours national d'entrée aux écoles d'ingénieurs</h4>
+                        <h5>2025</h5>
+                        <p>Institut Préparatoire aux Études d'Ingénieurs de Monastir, Tunisie</p>
+                        <p>Spécialisation en Mathématiques-Physique</p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Diplôme en informatique appliquée</h4>
+                        <h5>2028</h5>
+                        <p>École Nationale d'Ingénieurs de Sousse, Tunisie</p>
+                        <p>Spécialisation en Informatique Appliquée</p>
+                    </div>
+                </div>
+
+                <!-- Colonne 2 : Formations -->
+                <div class="resume-column">
+                    <h3 style="color: var(--dark); margin-bottom: 20px;">Formations :</h3>
+                    <div class="resume-item">
+                        <h4>Formation en Arduino et ESP32</h4>
+                        <h5>2025</h5>
+                        <p>École Nationale d'Ingénieurs de Sousse, Tunisie</p>
+                        <p>Création d'un robot avec Arduino et ESP32</p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Formation en Design UX/UI</h4>
+                        <h5>2025</h5>
+                        <p>École Nationale d'Ingénieurs de Sousse, Tunisie</p>
+                        <p>Création d'une interface avec Figma</p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Formation en SolidWorks</h4>
+                        <h5>2025</h5>
+                        <p>École Nationale d'Ingénieurs de Sousse, Tunisie</p>
+                        <p>Création d'un modèle mécanique avec SolidWorks</p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Formation en HTML, CSS, JavaScript</h4>
+                        <h5>2025</h5>
+                        <p>École Nationale d'Ingénieurs de Sousse, Sousse, Tunisie</p>
+                        <p>Création portfolio web avec HTML, CSS, JavaScript.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projet" class="section">
+            <h2 class="section-title">Mes projets</h2>
+            <div class="education-container">
+                <div class="education-item">
+                    <h3>Robot tout-terrain « TerraX »</h3>
+                    <p>Compétition interne à l'ENISo et externe à l'ENSI</p>
+                    <span>2019 - 2023<br><br></span>
+                    <img src="terraX.jpg" alt="Photo de profil" width="150">
+                    <img src="terraxall.jpg" alt="Photo de profil" width="355">
+                    <img src="rahma3.jpg" alt="Photo de profil" width="150">
+                </div>
+                <div class="education-item">
+                    <h3>Des affiches pour FabLab</h3>
+                    <span>2025 <br><br></span>
+                </div>
+                <div class="education-item">
+                    <h3>Réalisation d'une présentation et d'un montage vidéo dans le cadre d'un projet sur la Palestine</h3>
+                    <span>2025 <br><br></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+                <div class="service-box">
+                    <i class="fas fa-laptop-code"></i>
+                    <h4>Développement Web</h4>
+                    <p>Création de sites web modernes, responsifs et performants adaptés à vos besoins</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h4>Applications Mobiles</h4>
+                    <p>Développement d'applications iOS et Android avec React Native</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-paint-brush"></i>
+                    <h4>UI/UX Design</h4>
+                    <p>Conception d'interfaces utilisateur intuitives et attrayantes</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h4>E-commerce</h4>
+                    <p>Création de boutiques en ligne performantes et sécurisées</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-headset"></i>
+                    <h4>Support & Maintenance</h4>
+                    <p>Support technique et maintenance de vos projets web</p>
+                </div>
+            </div>
+        </section>
+
+<!-- Team Section -->
+        <section id="team" class="section">
+            <h2 class="section-title">My Team</h2>
+            <div class="team-hero">
+                <img src="BU4.jpg" alt="My Team" class="team-photo">
+            </div>
+            <div class="team-members-grid">
+                <div class="team-member-card">
+                    <div class="member-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3 class="member-name">Member Name 1</h3>
+                    <p class="member-role">Role / Specialty</p>
+                    <a href="#" class="portfolio-link" target="_blank">
+                        <i class="fas fa-globe"></i>
+                        <span>View Portfolio</span>
+                    </a>
+                </div>
+                
+                <div class="team-member-card">
+                    <div class="member-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3 class="member-name">Member Name 2</h3>
+                    <p class="member-role">Role / Specialty</p>
+                    <a href="#" class="portfolio-link" target="_blank">
+                        <i class="fas fa-globe"></i>
+                        <span>View Portfolio</span>
+                    </a>
+                </div>
+                
+                <div class="team-member-card">
+                    <div class="member-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3 class="member-name">Member Name 3</h3>
+                    <p class="member-role">Role / Specialty</p>
+                    <a href="#" class="portfolio-link" target="_blank">
+                        <i class="fas fa-globe"></i>
+                        <span>View Portfolio</span>
+                    </a>
+                </div>
+                
+                <div class="team-member-card">
+                    <div class="member-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3 class="member-name">Member Name 4</h3>
+                    <p class="member-role">Role / Specialty</p>
+                    <a href="#" class="portfolio-link" target="_blank">
+                        <i class="fas fa-globe"></i>
+                        <span>View Portfolio</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Localisation</h4>
+                            <p>Sousse, Tunisie</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>rahmakhessibieniso@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p>+216 96 022 986</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form onsubmit="handleSubmit(event)">
+                        <div class="form-group">
+                            <label for="name">Nom</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Sujet</label>
+                            <input type="text" id="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Khessibi Rahma. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
